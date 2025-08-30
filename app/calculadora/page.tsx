@@ -70,7 +70,7 @@ export default function CalculadoraPage() {
           <CardContent>
             <div className="grid md:grid-cols-3 gap-6 text-lg">
               <div className="text-center">
-                <h4 className="font-semibold mb-2 text-gray-800">Error Absoluto</h4>
+                <h4 className="font-semibold mb-2 text-gray-800">Error</h4>
                 <div className="p-4 rounded border border-gray-200 bg-white">
                   Δa = α − a
                 </div>

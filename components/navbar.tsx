@@ -25,7 +25,7 @@ export default function Navbar() {
 
           {/* Logo a la izquierda */}
           <div className="flex-shrink-0 text-2xl font-bold bg-gradient-to-r from-gray-700 via-indigo-500 to-gray-800 bg-clip-text text-transparent hover:scale-105 transition-transform duration-200">
-            Calculadora de Jareds
+            Calculadora de errores
           </div>
 
           {/* Links centrados */}

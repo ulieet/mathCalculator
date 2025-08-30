@@ -2,8 +2,8 @@ import Link from "next/link"
 
 const links = [
   { href: "/", label: "Inicio" },
-  { href: "#servicios", label: "Calculadora" },
-  { href: "#contacto", label: "Grupo" },
+  { href: "calculadora", label: "Calculadora" },
+  { href: "grupo", label: "Grupo" },
 ]
 
 export default function NavLinks() {

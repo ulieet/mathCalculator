@@ -21,7 +21,7 @@ function ErrorCard({ title, description, formula }: ErrorCardProps) {
       <p className="text-gray-600 leading-relaxed mb-4">{description}</p>
 
       <div className="p-4 rounded-md border border-gray-100 bg-gray-50">
-        <p className="font-mono text-center font-medium text-gray-700">{formula}</p>
+        <p className="font-mono text-center font-medium text-gray-700 text-3xl">{formula}</p>
       </div>
     </div>
   )
@@ -33,19 +33,19 @@ export default function TeoriaErrores() {
       title: "Error Absoluto",
       description:
         "El error absoluto es la diferencia entre el valor exacto y el aproximado. Se expresa con las mismas unidades que la medida (metros, segundos, kg, etc.). Puede ser positivo o negativo, dependiendo de si el valor medido es mayor o menor al real.",
-      formula: "$$E_a = V_{exacto} - V_{aproximado}$$",
+      formula: "Δa = α − a",
     },
     {
       title: "Error Relativo",
       description:
         "El error relativo es el cociente entre el error absoluto y el valor exacto. Es adimensional y permite comparar errores de diferentes magnitudes.",
-      formula: "$$E_r = \\frac{E_a}{V_{exacto}}$$",
+      formula: "ε(α) = Δa / α , α ≠ 0",
     },
     {
       title: "Error Porcentual",
       description:
         "El error porcentual es el error relativo expresado como porcentaje. Se obtiene multiplicando el error relativo por 100.",
-      formula: "$$E_p = E_r \\times 100$$",
+      formula: "ε%(α) = ε(α) × 100",
     },
   ]
 

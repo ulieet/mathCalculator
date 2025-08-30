@@ -10,9 +10,9 @@ import Navbar from "@/components/navbar"
 
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
-  generator: 'v0.app',
+  title: 'Calculadora de Erroees - JAREDS DE NUMERICO',
+  description: 'Created with 9 of july',
+  generator: '9 de julio',
 }
 
 export default function RootLayout({

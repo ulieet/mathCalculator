@@ -64,9 +64,9 @@ function ErrorCard({ title, description, formula, consigna, valores, calculo }: 
 export default function TeoriaErrores() {
   const cards: ErrorCardProps[] = [
     {
-      title: "Error Absoluto",
+      title: "Error",
       description:
-        "El error absoluto es la diferencia entre el valor exacto y el valor aproximado de una cantidad. En todas las mediciones y cálculos numéricos, siempre existe algún grado de error, ya que las mediciones no son perfectas.",
+        "El error es la diferencia entre el valor exacto y el valor aproximado de una cantidad. En todas las mediciones y cálculos numéricos, siempre existe algún grado de error, ya que las mediciones no son perfectas.",
       formula: "Δa = α − a",
       consigna: "Medir la longitud de una mesa",
       valores: ["Valor exacto (α): 90,5 cm", "Valor aproximado (a): 90,4 cm"],
@@ -149,3 +149,6 @@ export default function TeoriaErrores() {
     </section>
   )
 }
+
+
+

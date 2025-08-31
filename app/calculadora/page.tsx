@@ -50,7 +50,6 @@ export default function CalculadoraPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-gray-50 to-slate-100">
       <div className="container mx-auto px-4 py-8 max-w-4xl">
-        {/* Instrucciones */}
         <Card className="mb-8 shadow-sm mt-15">
           <CardContent className="p-6">
             <h2 className="text-2xl font-semibold mb-4 text-gray-800">Instrucciones de Uso</h2>
@@ -62,7 +61,7 @@ export default function CalculadoraPage() {
           </CardContent>
         </Card>
 
-        {/* Fórmulas */}
+        
         <Card className="mt-8 shadow-sm mb-10">
           <CardHeader>
             <CardTitle className="text-gray-800 text-xl">Fórmulas Utilizadas</CardTitle>
@@ -91,9 +90,8 @@ export default function CalculadoraPage() {
           </CardContent>
         </Card>
 
-        {/* Entrada y Resultados */}
+
         <div className="grid md:grid-cols-2 gap-8">
-          {/* Entrada */}
           <Card className="border-gray-200 shadow-sm h-[380px] transition-all duration-500">
             <CardHeader>
               <CardTitle className="flex items-center gap-2 text-gray-800 text-xl">
@@ -143,7 +141,6 @@ export default function CalculadoraPage() {
             </CardContent>
           </Card>
 
-          {/* Resultados */}
           <Card className="border-gray-200 shadow-sm transition-all duration-500">
             <CardHeader>
               <CardTitle className="text-gray-800 text-xl">Resultados</CardTitle>

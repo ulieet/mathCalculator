@@ -8,7 +8,7 @@ const links = [
 
 export default function NavLinks() {
   return (
-    <div className="hidden md:flex items-center justify-center gap-x-8">
+    <div className="hidden md:flex items-center gap-x-8">
       {links.map((link) => (
         <Link
           key={link.href}

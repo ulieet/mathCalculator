@@ -5,14 +5,13 @@ import { Analytics } from '@vercel/analytics/next'
 import './globals.css'
 import Navbar from "@/components/navbar"
 
-
-
-
-
 export const metadata: Metadata = {
   title: 'Calculadora de Erroees - JAREDS DE NUMERICO',
   description: 'Created with 9 of july',
   generator: '9 de julio',
+  icons: {
+    icon: '/jared.jpeg', 
+  },
 }
 
 export default function RootLayout({
@@ -23,6 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable}`}>
+        
         <Navbar/>
         
         {children}

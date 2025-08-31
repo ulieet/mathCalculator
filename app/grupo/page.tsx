@@ -2,10 +2,10 @@ import Image from "next/image"
 
 export default function GrupoSection() {
   const integrantes = [
-    { nombre: "Vétere", rol: "Ulises"},
-    { nombre: "Forlini", rol: "Martin Simon" },
-    { nombre: "Giordani", rol: "Luca" },
-    { nombre: "Sampaoli", rol: "Nicolas" },
+    { nombre: "Vétere Ulises", legajo: "32301"},
+    { nombre: "Forlini Martin Simon", legajo: "32317" },
+    { nombre: "Giordani Luca", legajo: "33382" },
+    { nombre: "Sampaoli Sergio Nicolas", legajo: "31808" },
   ]
 
   return (
@@ -42,20 +42,16 @@ export default function GrupoSection() {
                     <span className="text-white font-bold text-xl">{integrante.nombre.charAt(0)}</span>
                   </div>
                   <h3 className="text-lg font-semibold text-gray-900 mb-1">{integrante.nombre}</h3>
-                  <p className="text-sm text-gray-600">{integrante.rol}</p>
+                  <p className="text-sm text-gray-600">{integrante.legajo}</p>
                 </div>
               </div>
             ))}
           </div>
 
-          <div className="mt-12 text-center">
-            <div className="bg-gradient-to-r from-indigo-50 to-purple-50 rounded-2xl p-6 border border-indigo-200/50">
-              <h3 className="text-xl font-semibold text-gray-900 mb-2">Grupo 6</h3>
-              <p className="text-gray-700">Vetere • Forlini • Giordani • Sampaoli</p>
-            </div>
+          
           </div>
         </div>
-      </div>
+     
     </section>
   )
 }

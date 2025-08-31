@@ -2,10 +2,10 @@ import Image from "next/image"
 
 export default function GrupoSection() {
   const integrantes = [
-    { nombre: "Vetere", rol: "ñoñi" },
-    { nombre: "Forlini", rol: "santurio" },
-    { nombre: "Giordani", rol: "jared" },
-    { nombre: "Sampaoli", rol: "leto" },
+    { nombre: "Vétere", rol: "Ulises"},
+    { nombre: "Forlini", rol: "Martin Simon" },
+    { nombre: "Giordani", rol: "Luca" },
+    { nombre: "Sampaoli", rol: "Nicolas" },
   ]
 
   return (
@@ -19,9 +19,8 @@ export default function GrupoSection() {
         </div>
 
         <div className="bg-white/70 backdrop-blur-sm rounded-3xl shadow-xl border border-gray-200/50 p-8 md:p-12">
-          {/* Foto del grupo */}
           <div className="flex justify-center mb-12">
-            <div className="relative w-80 h-60 rounded-2xl overflow-hidden shadow-lg bg-gradient-to-br from-indigo-100 to-purple-100 flex items-center justify-center">
+            <div className="relative w-80 h-75 rounded-2xl overflow-hidden shadow-lg bg-gradient-to-br from-indigo-100 to-purple-100 flex items-center justify-center">
               <Image
                 src="/jared.jpeg"
                 alt="Foto del Grupo 6"
@@ -32,7 +31,6 @@ export default function GrupoSection() {
             </div>
           </div>
 
-          {/* Nombres de integrantes */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {integrantes.map((integrante, index) => (
               <div
@@ -50,7 +48,6 @@ export default function GrupoSection() {
             ))}
           </div>
 
-          {/* Información adicional */}
           <div className="mt-12 text-center">
             <div className="bg-gradient-to-r from-indigo-50 to-purple-50 rounded-2xl p-6 border border-indigo-200/50">
               <h3 className="text-xl font-semibold text-gray-900 mb-2">Grupo 6</h3>

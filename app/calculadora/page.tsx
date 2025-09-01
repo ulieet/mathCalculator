@@ -55,8 +55,8 @@ export default function CalculadoraPage() {
           <CardContent className="p-6">
             <h2 className="text-2xl font-semibold mb-4 text-gray-800">Instrucciones de Uso</h2>
             <div className="space-y-2 text-gray-600 text-lg">
-              <p>• Ingrese el <strong className="text-gray-800">valor exacto</strong> (α)</p>
-              <p>• Ingrese el <strong className="text-gray-800">valor aproximado</strong> (a)</p>
+              <p>• Ingrese el <strong className="text-gray-800">valor aproximado</strong> (α)</p>
+              <p>• Ingrese el <strong className="text-gray-800">valor medido</strong> (a)</p>
               <p>• Presione "Calcular" para obtener Δa, ε(α) y ε%(α)</p>
             </div>
           </CardContent>
@@ -103,7 +103,7 @@ export default function CalculadoraPage() {
             <CardContent className="space-y-9 h-full">
               <div className="space-y-2">
                 <Label htmlFor="valor-exacto" className="text-gray-700 font-medium text-lg">
-                  Valor Exacto (α)
+                  Valor aproximado (α)
                 </Label>
                 <Input
                   id="valor-exacto"
@@ -118,7 +118,7 @@ export default function CalculadoraPage() {
 
               <div className="space-y-2">
                 <Label htmlFor="valor-aproximado" className="text-gray-700 font-medium text-lg">
-                  Valor Aproximado (a)
+                  Valor Medido (a)
                 </Label>
                 <Input
                   id="valor-aproximado"

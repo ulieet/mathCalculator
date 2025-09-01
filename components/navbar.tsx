@@ -11,7 +11,7 @@ export default function Navbar() {
    
           <div className="flex items-center gap-3">
             <div className="text-2xl font-bold bg-gradient-to-r from-gray-700 via-indigo-500 to-gray-800 bg-clip-text text-transparent hover:scale-105 transition-transform duration-200">
-              Calculadora de errores
+              Calculadora de errores 
             </div>
             <img
               src="/jared.jpeg"

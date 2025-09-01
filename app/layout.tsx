@@ -6,7 +6,7 @@ import './globals.css'
 import Navbar from "@/components/navbar"
 
 export const metadata: Metadata = {
-  title: 'Calculadora de Erroees - JAREDS DE NUMERICO',
+  title: 'Calculadora de Errores - JAREDS DE NUMERICO',
   description: 'Calculadora de errores. Error relativo y porcentual',
   icons: {
     icon: '/jared.jpeg', 

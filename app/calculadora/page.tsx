@@ -19,7 +19,7 @@ export default function CalculadoraPage() {
   } | null>(null)
 
   const calcular = () => {
-    const exacto = parseFloat(valorExacto)
+    const exacto = parseFloat(valorExacto) //Uso parsefloat para poder operar.
     const aproximado = parseFloat(valorAproximado)
 
     if (isNaN(exacto) || isNaN(aproximado)) {
@@ -32,6 +32,7 @@ export default function CalculadoraPage() {
       return
     }
 
+    //Actualizo estados de resultados
     setResultados({
       valorExacto: exacto,
       valorAproximado: aproximado,
@@ -149,7 +150,7 @@ export default function CalculadoraPage() {
               {resultados ? (
                 <>
                   <div className="p-4 rounded-lg border border-gray-200 bg-white">
-                    <h3 className="font-semibold text-gray-800 mb-2">Error Absoluto (Δa)</h3>
+                    <h3 className="font-semibold text-gray-800 mb-2">Error (Δa)</h3>
                     <p className="text-2xl font-mono text-gray-900">
                       {resultados.errorAbsoluto.toLocaleString("es-AR", { maximumFractionDigits: 4 })}
                     </p>
